@@ -1,6 +1,6 @@
 # Invoice
 
-Example
+Example [invoice](https://goadv.github.io/invoice.html)
 
 ### Credits
 
