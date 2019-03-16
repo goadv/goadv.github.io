@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>A simple, clean, and responsive HTML invoice template</title>
 
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/invoice/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
 </head>
 
 <body>
@@ -117,5 +118,17 @@
             </tr>
         </table>
     </div>
+    <script>
+    const app = new Vue({
+        el: 'table',
+        data: {
+            items: [
+                { description: 'Website design', quantity: 1, price: 300 },
+                { description: 'Hosting (3 months)', quantity: 1, price: 75 },
+                { description: 'Domain name (1 year)', quantity: 1, price: 10 },
+            ]
+        }
+    });
+    </script>
 </body>
 </html>
