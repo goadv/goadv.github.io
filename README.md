@@ -1,7 +1,7 @@
-# Invoice
+# My site a blog
 
-Example [invoice](https://goadv.github.io/invoice/)
+[goadv](https://goadv.github.io)
 
 ### Credits
 
-[sparksuite/simple-html-invoice-template](https://github.com/sparksuite/simple-html-invoice-template/)
+[barryclark/jekyll-now](http://github.com/barryclark/jekyll-now) template HTML
